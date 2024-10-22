@@ -1,0 +1,1 @@
+Coding exercises from my Python programming course. Each directory represents one class. 
