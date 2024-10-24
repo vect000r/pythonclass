@@ -1,0 +1,31 @@
+ZADANIE 3.1
+Czy podany kod jest poprawny składniowo w Pythonie? Jeśli nie, to dlaczego?
+
+a) x = 2; y = 3;
+if (x > y):
+    result = x;
+else:
+    result = y;
+b) for i in "axby": if ord(i) < 100: print (i)
+c) for i in "axby": print (ord(i) if ord(i) < 100 else i)
+
+a) kod jest niepoprawny, ponieważ zawiera średniki 
+b) kod jest niepoprawny, brak wcięć po dwukropkach gdzie mamy więcej niż jedno polecenie
+c) kod jest poprawny
+
+ZADANIE 3.2
+Co jest złego w kodzie:
+
+a) L = [3, 5, 4] ; L = L.sort()
+b) x, y = 1, 2, 3
+c) X = 1, 2, 3 ; X[1] = 4
+d) X = [1, 2, 3] ; X[3] = 4
+e) X = "abc" ; X.append("d")
+f) L = list(map(pow, range(8)))
+
+a) kod jest niepoprawny, L.sort zwraca None
+b) kod jest niepoprawny, za mało zmiennych po lewej stronie (jednej zmiennej przypisujemy jedna wartosc)
+c) kod jest niepoprawny, typ tuple nie wspiera przypisywania 
+d) kod jest niepoprawny, index out of range
+e) kod jest niepoprawny, typ string nie ma metody append
+f) kod jest niepoprawny, funkcja pow() wymaga argumentow
