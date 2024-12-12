@@ -1,12 +1,7 @@
-import tkinter as tk
+import app
 
-root = tk.Tk()
-root.title("test")
+def main():
+    my_app = app.App()
 
-frame = tk.Frame(root)
-label = tk.Label(frame, text="text")
-label.grid()
-
-frame.pack()
-
-root.mainloop()
+if __name__ == "__main__":
+    main()
