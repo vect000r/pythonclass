@@ -1,8 +1,9 @@
-import tkinter as tk
 import random
 
 class NumberGenerator:
     def __init__(self, num=5):
-        self.opt1, self.opt2, self.opt3 = random.sample(range(self.num), 3)
+        self.num = num
+
     def result(self):
-        pass
+        """Zwraca 3 losowe liczby z przedziału od 1 do 5"""
+        return [random.randint(1, self.num) for _ in range(3)]

@@ -5,7 +5,7 @@ import fruit
 import time
 
 class Game:
-    def __init__(self, window_width=720, window_height=480, snake_speed=50):
+    def __init__(self, window_width=720, window_height=480, snake_speed=20):
         # Inicjalizacja Pygame
         pygame.init()
         
